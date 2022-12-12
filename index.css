@@ -1,0 +1,32 @@
+/* Write your code here. */
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "Roboto";
+  font-size: 35px;
+}
+img {
+  width: 150px;
+}
+@media (min-width: 576px) {
+  img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  img {
+    width: 2000px;
+  }
+  h1 {
+    font-family: "Roboto";
+    font-size: 40px;
+  }
+} ;
